@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Toaster } from "react-hot-toast"
 import {
   AiOutlineMinus,
   AiOutlinePlus,
@@ -17,6 +18,7 @@ const ProductDetails = ({ product, products }) => {
   return (
     <div>
       <div className='product-detail-container'>
+        <Toaster />
         <div>
           <div className='image-container'>
             <img
